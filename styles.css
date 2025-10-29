@@ -73,9 +73,30 @@ section h2 {
   grid-column: span 3;
 }
 
-.services {
-  grid-column: span 3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+@media (max-width: 1024px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  .services {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav[role="navigation"] ul {
+    flex-direction: column;
+  }
+  main {
+    grid-template-columns: 1fr;
+  }
+  .services {
+    grid-template-columns: 1fr;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
 }
