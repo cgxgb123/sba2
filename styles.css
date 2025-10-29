@@ -53,3 +53,7 @@ nav[role="navigation"] a:hover {
   color: black;
   cursor: pointer;
 }
+
+.hero button:focus {
+  outline: 3px solid white;
+}
