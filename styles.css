@@ -38,6 +38,12 @@ nav[role="navigation"] a:focus,
 nav[role="navigation"] a:hover {
   outline: 2px solid #00eaff;
 }
+.hero {
+  background: url(hero.jpg);
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+}
 
 .hero button {
   background: #00eaff;
