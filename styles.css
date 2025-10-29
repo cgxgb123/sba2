@@ -57,3 +57,8 @@ nav[role="navigation"] a:hover {
 .hero button:focus {
   outline: 3px solid white;
 }
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
