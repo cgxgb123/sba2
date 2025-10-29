@@ -64,3 +64,11 @@ main {
   padding: 2rem;
   gap: 2rem;
 }
+
+section h2 {
+  font-size: 1.8rem;
+}
+
+.about {
+  grid-column: span 3;
+}
