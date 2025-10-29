@@ -61,4 +61,6 @@ nav[role="navigation"] a:hover {
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+  gap: 2rem;
 }
