@@ -38,3 +38,12 @@ nav[role="navigation"] a:focus,
 nav[role="navigation"] a:hover {
   outline: 2px solid #00eaff;
 }
+
+.hero button {
+  background: #00eaff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+}
